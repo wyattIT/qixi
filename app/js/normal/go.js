@@ -4,7 +4,7 @@ require('@css/normal/code.css')
 require('@css/normal/cursor.css')
 require('@css/normal/normal.css')
 // 配置在一起的日子
-const startTime = '2017/07/10'
+const startTime = '2012/05/20'
 // preload
 document.getElementById('birthday').remove()
 let s1 = require('@img/i-miss-u.png')
@@ -17,6 +17,10 @@ img2.setAttribute('src', s2)
 function go () {
   typish('#typer')
     .type('/**', '<span class="note">')
+    .type('0', '<br>')
+    .type('00', '<span class="blank">')
+    .type('今天七夕,想到自己刚好闲置了半年的服务器跟域名 于是 ......', '<span class="note">')
+    .type('重点不是前半句,而是后半句 ', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
     .type('今天wood先生教你写代码呀', '<span class="note">')
@@ -61,7 +65,7 @@ function go () {
     .type("'wood'", '<span class="green">')
     .wait(15)
     .del(6)
-    .type("'洪榕森'", '<span class="green">')
+    .type("'HUANGYANFEI'", '<span class="green">')
     .type(',', '<span class="gray">')
     .type('0', '<br>')
     // 珊珊
@@ -69,7 +73,7 @@ function go () {
     .type('girl', '<span class="gray">')
     .type(':', '<span class="blue">')
     .type('0', '<span class="blank">')
-    .type("'黄珊珊'", '<span class="green">')
+    .type("'LVLITING'", '<span class="green">')
     .type(',', '<span class="gray">')
     .type('0', '<br>')
     // time
