@@ -20,6 +20,8 @@ function go () {
     .type('0', '<br>')
     .type('00', '<span class="blank">')
     .type('今天七夕,想到自己刚好闲置了半年的服务器跟域名 于是 ......', '<span class="note">')
+    .type('0', '<br>')
+    .type('00', '<span class="blank">')
     .type('重点不是前半句,而是后半句 ', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
